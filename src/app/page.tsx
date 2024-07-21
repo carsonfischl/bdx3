@@ -15,7 +15,8 @@ export default function Home() {
           priority
         />
       </div>
-      <Form />
+      <div></div>
     </main>
+    
   );
 }
