@@ -1,0 +1,39 @@
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: orange;
+    }
+
+    .login {
+        color: red;
+    }
+
+    .register {
+        color: orange;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: orange-red;
+    }
+
+    .login {
+        color: orange-red;
+    }
+
+    .register {
+        color: orange;
+    }
+}
